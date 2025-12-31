@@ -1,27 +1,22 @@
-<button type="button" onclick="addTask()">Ajouter</button>
-<input type="text" id="taskInput" placeholder="Nouvelle tâche">
-<script src="script.js"></script>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Todo List</title>
+    <title>Ma Todo List</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="container">
-        <h1>Ma Todo List</h1>
+    <h1>Ma Todo List</h1>
 
-       <form onsubmit="addTask(event)">
-    <input type="text" id="taskInput" placeholder="Nouvelle tâche">
-    <button type="submit">Ajouter</button>
-</form>
+    <input type="text" id="taskInput" placeholder="Écris une tâche">
+    <button type="button" id="addBtn">Ajouter</button>
 
-<ul id="taskList"></ul>
- 
+    <ul id="taskList"></ul>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
 
 
 
