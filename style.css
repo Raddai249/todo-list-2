@@ -141,6 +141,22 @@ body.dark .task-item {
   .controls {
     flex-direction: column;
   }
+  /* Animation entrée tâche */
+@keyframes fadeInTask {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+li {
+  animation: fadeInTask 0.3s ease;
+}
+
 
   button {
     width: 100%;
